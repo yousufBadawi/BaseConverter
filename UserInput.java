@@ -29,6 +29,7 @@ public class UserInput {
 				}
 			}
 		}
+                System.out.println("Nogger");
 		System.out.println("Please enter the conversion base. It must be between 2 and 36");
 		int base2= sc.nextInt();
 		while(base2 > 37 || base2 < 2){
